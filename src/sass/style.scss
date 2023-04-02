@@ -1,0 +1,20 @@
+@import 'normalize';
+
+@import 'scafolding';
+
+@import 'variables';
+
+
+h2 {
+  font-size: $main-header-height;
+}
+
+body {
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  background-color: $body-bg;
+  min-height: 100vh;
+}
